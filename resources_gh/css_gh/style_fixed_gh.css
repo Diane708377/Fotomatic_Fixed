@@ -248,6 +248,11 @@ header .mobile {
   margin: 0 auto;
 }
 
+/* Bug fixed: add a padding to the feature content */
+.feature .content {
+  padding: 2.5rem 0;
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
@@ -284,6 +289,11 @@ header .mobile {
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }
+
+  /* Bug fixed: add a padding to the feature content */
+  .feature .content {
+    padding: 1.25rem 0 1.875rem 0;
   }
 }
 
