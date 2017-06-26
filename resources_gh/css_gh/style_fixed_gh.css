@@ -27,7 +27,7 @@ html {
 .image-container img {
   display: block;
 
-  /* Bug fixed: add a max width to all the images */
+  /* Bug fixed 1: add a max width to all the images */
   max-width: 100%;
 }
 
@@ -41,7 +41,7 @@ html {
 
 header {
   position: fixed;
-  /* Bug fixed: add a z-index to the header
+  /* Bug fixed 2: add a z-index to the header
   in order to make it display over
   the other elements */
   z-index: 10;
@@ -126,7 +126,7 @@ header .mobile {
   align-items: flex-start;
   height: 43.5rem;
 
-  /* Bug fixed: add the background image */
+  /* Bug fixed 3: add the background image */
   background-image: url("../images_gh/banner-landingpage.jpg");
   background-position: bottom;
   background-size: cover;
@@ -134,7 +134,7 @@ header .mobile {
 }
 
 #sign-up-cta {
-  /*Bug fixed: apply a position relative */
+  /*Bug fixed 4: apply a position relative to the green block */
   position: relative;
   top: 171px;
   left: 10%;
@@ -248,7 +248,7 @@ header .mobile {
   margin: 0 auto;
 }
 
-/* Bug fixed: add a padding to the feature content */
+/* Bug fixed 5: add a padding to the feature content */
 .feature .content {
   padding: 2.5rem 0;
 }
@@ -291,7 +291,7 @@ header .mobile {
     padding: 1.25rem 1rem 0 1rem;
   }
 
-  /* Bug fixed: add a padding to the feature content */
+  /* Bug fixed 6: add a padding to the feature content */
   .feature .content {
     padding: 1.25rem 0 1.875rem 0;
   }
@@ -323,7 +323,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
-  /* Bug fixed: apply the flexbox technique to the images container */
+  /* Bug fixed 7: apply the flexbox technique to the images container */
   display: flex;
 
   max-width: 100%;
