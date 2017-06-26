@@ -310,6 +310,9 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  /* Bug fixed: apply the flexbox technique to the images container */
+  display: flex;
+
   max-width: 100%;
   padding: 0 1%;
 }
