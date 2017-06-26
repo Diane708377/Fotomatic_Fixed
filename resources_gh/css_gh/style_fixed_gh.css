@@ -122,6 +122,12 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+
+  /* Bug fixed: add the background image */
+  background-image: url("../images_gh/banner-landingpage.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
