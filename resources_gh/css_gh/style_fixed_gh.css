@@ -38,6 +38,11 @@ html {
 
 header {
   position: fixed;
+  /* Bug fixed: add a z-index to the header
+  in order to make it display over
+  the other elements */
+  z-index: 10;
+
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
