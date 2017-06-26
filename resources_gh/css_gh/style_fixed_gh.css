@@ -26,6 +26,9 @@ html {
 
 .image-container img {
   display: block;
+
+  /* Bug fixed: add a max width to all the images */
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
